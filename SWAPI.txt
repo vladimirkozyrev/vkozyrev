@@ -1,0 +1,24 @@
+    Visit the Star Wars API
+    https://swapi.dev/
+
+Verify that the people endpoint is returning a successful response
+
+	https://swapi.dev/api/people/82/
+   
+Verify that the total number of people where height is greater than
+    200 matches the expected count (10 at the time this was assigned)
+	-------------------------
+ Verify that the 10 individuals returned are:
+        Darth Vader. Chewbacca, Roos Tarpals, Rugor Nass, Yarael Poof, Lama Su, Tuan Wu, Grievous, Tarfful, Tion Medon
+
+https://swapi.dev/api/people/people/?search=Darth Vader
+https://swapi.dev/api/people/people/?search=Chewbacca
+https://swapi.dev/api/people/people/?search=Roos Tarpals  
+etc...
+
+Verify that the total number of people checked equals the expected count (82 at the time)
+	https://swapi.dev/api/people/
+	https://swapi.dev/api/people/?all
+ 
+
+ 
